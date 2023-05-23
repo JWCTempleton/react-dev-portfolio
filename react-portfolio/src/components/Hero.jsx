@@ -1,8 +1,13 @@
 import "./Hero.css";
 
+// #FFFF00, #00FFFF, #FF00FF
+
 const Hero = () => {
   return (
-    <div>
+    <div class="hero">
+      <div class="hero-text">
+        <h2>Hi, I'm Jacob Templeton</h2>
+      </div>
       <svg
         class="background--custom"
         id="demo"
