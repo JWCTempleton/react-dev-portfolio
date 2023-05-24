@@ -12,20 +12,20 @@
   display: flex;
   flex-direction: column;
   padding: 5rem 9rem;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* backdrop-filter: blur(10px); */
   border-radius: 16px;
   justify-content: center;
   align-items: center;
   line-height: 0.05rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 2.5px 4.6px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 2.5px 4.6px; */
 
-  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  /* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .hero {
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
     }
-  }
+  } */
 }
 
 .text-background {
@@ -54,15 +54,16 @@
 
 .button-section {
   display: flex;
+  justify-content: center;
   gap: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .button {
   background-color: #6c91f7;
   border: none;
   cursor: pointer;
-  padding: 1.3rem 1.3rem;
+  padding: 1.4rem 1.6rem;
   color: #ffffff;
   font-size: 1.2rem;
   border-radius: 0.6rem;

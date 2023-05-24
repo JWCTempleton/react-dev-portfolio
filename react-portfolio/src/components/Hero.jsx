@@ -18,7 +18,6 @@ const Hero = () => {
       </div>
       <svg
         class="background--custom"
-        id="demo"
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
       >
