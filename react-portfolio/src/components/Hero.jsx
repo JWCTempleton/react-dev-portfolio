@@ -4,9 +4,12 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div class="hero">
-      <div class="hero-text">
-        <h2>Hi, I'm Jacob Templeton</h2>
+    <div className="hero">
+      <div className="hero-text">
+        <p className="hero-paragraph">
+          Hi, I'm <span className="text-background">Jacob Templeton</span>...
+        </p>
+        <p className="hero-paragraph">your next web developer.</p>
       </div>
       <svg
         class="background--custom"
