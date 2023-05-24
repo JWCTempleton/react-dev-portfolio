@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 95vh;
   margin-top: -4rem;
 }
 
@@ -27,7 +27,7 @@
   }
 }
 
-.text-background:hover {
+.text-background {
   background: linear-gradient(90deg, #6c91f7, #f26d6a);
   background-size: 300% 300%;
   animation: gradient 2s alternate infinite;
@@ -49,7 +49,7 @@
   font-family: "Roboto";
   font-size: 3rem;
   font-weight: 700;
-  line-height: 0.05rem;
+  line-height: 3.8rem;
 }
 
 .button-section {

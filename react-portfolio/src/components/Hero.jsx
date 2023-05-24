@@ -8,8 +8,9 @@ const Hero = () => {
       <div className="hero-text">
         <p className="hero-paragraph">
           Hi, I'm <span className="text-background">Jacob Templeton</span>...
+          <br />
+          your next web developer.
         </p>
-        <p className="hero-paragraph">your next web developer.</p>
         <div className="button-section">
           <button className="button">About Me</button>
           <button className="button">My Projects</button>
