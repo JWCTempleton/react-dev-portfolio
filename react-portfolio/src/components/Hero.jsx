@@ -10,6 +10,10 @@ const Hero = () => {
           Hi, I'm <span className="text-background">Jacob Templeton</span>...
         </p>
         <p className="hero-paragraph">your next web developer.</p>
+        <div className="button-section">
+          <button className="button">About Me</button>
+          <button className="button">My Projects</button>
+        </div>
       </div>
       <svg
         class="background--custom"

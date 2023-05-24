@@ -52,6 +52,27 @@
   line-height: 0.05rem;
 }
 
+.button-section {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.button {
+  background-color: #6c91f7;
+  border: none;
+  cursor: pointer;
+  padding: 1.2rem 1.6rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #4172f6;
+  transition: background 0.3s ease-in-out;
+}
 path {
   transform-origin: 50% 0%;
 }
