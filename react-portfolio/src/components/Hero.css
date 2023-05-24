@@ -11,14 +11,14 @@
 .hero-text {
   display: flex;
   flex-direction: column;
-  padding: 3rem 6rem;
+  padding: 3rem 8rem;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 16px;
   justify-content: center;
   align-items: center;
   line-height: 0.05rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 2.5px 4.6px;
 
   @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .hero {
@@ -31,7 +31,7 @@
 .text-background {
   background: linear-gradient(90deg, #6c91f7, #f26d6a);
   background-size: 300% 300%;
-  animation: gradient 2s alternate infinite;
+  animation: gradient 1.7s alternate infinite;
   background-clip: text;
   /* transition: background 0.8s ease-in-out; */
   -webkit-background-clip: text;
@@ -63,7 +63,7 @@
   background-color: #6c91f7;
   border: none;
   cursor: pointer;
-  padding: 1.2rem 1.6rem;
+  padding: 1rem 1.3rem;
   color: #ffffff;
   font-size: 1.2rem;
   border-radius: 0.6rem;
@@ -72,7 +72,14 @@
 
 .button:hover {
   background-color: #4172f6;
-  transition: background 0.2s ease-out;
+  transform: translatey(-3px);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 2.5px 2.6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: none;
 }
 path {
   transform-origin: 50% 0%;
@@ -81,14 +88,14 @@ path {
   background-color: #ffffff;
   position: absolute;
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
   z-index: -1;
   top: 0;
   left: 0;
 }
 @keyframes path0 {
   0% {
-    transform: rotate(-10deg);
+    transform: rotate(-20deg);
   }
   100% {
     transform: rotate(10deg);
@@ -96,7 +103,7 @@ path {
 }
 @keyframes path1 {
   0% {
-    transform: rotate(-30deg);
+    transform: rotate(-20deg);
   }
   100% {
     transform: rotate(30deg);
@@ -104,7 +111,7 @@ path {
 }
 @keyframes path2 {
   0% {
-    transform: rotate(40deg);
+    transform: rotate(30deg);
   }
   100% {
     transform: rotate(-40deg);
