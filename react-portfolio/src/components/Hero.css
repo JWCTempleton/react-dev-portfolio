@@ -72,7 +72,7 @@
 
 .button:hover {
   background-color: #4172f6;
-  transition: background 0.3s ease-in-out;
+  transition: background 0.2s ease-out;
 }
 path {
   transform-origin: 50% 0%;
