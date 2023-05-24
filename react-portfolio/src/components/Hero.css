@@ -11,7 +11,7 @@
 .hero-text {
   display: flex;
   flex-direction: column;
-  padding: 3rem 8rem;
+  padding: 5rem 9rem;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 16px;
@@ -47,7 +47,6 @@
 }
 
 .hero-paragraph {
-  font-family: "Roboto";
   font-size: 3rem;
   font-weight: 700;
   line-height: 3.8rem;
@@ -63,7 +62,7 @@
   background-color: #6c91f7;
   border: none;
   cursor: pointer;
-  padding: 1rem 1.3rem;
+  padding: 1.3rem 1.3rem;
   color: #ffffff;
   font-size: 1.2rem;
   border-radius: 0.6rem;
@@ -98,7 +97,7 @@ path {
     transform: rotate(-20deg);
   }
   100% {
-    transform: rotate(10deg);
+    transform: rotate(15deg);
   }
 }
 @keyframes path1 {

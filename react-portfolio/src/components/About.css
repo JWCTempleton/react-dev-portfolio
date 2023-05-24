@@ -1,0 +1,15 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  width: 50rem;
+}
+
+.about-img {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.about-text {
+}
