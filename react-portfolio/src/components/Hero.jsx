@@ -12,7 +12,9 @@ const Hero = () => {
           your next web developer.
         </p>
         <div className="button-section">
-          <button className="button">About Me</button>
+          <a href="#about">
+            <button className="button">About Me</button>
+          </a>
           <button className="button">My Projects</button>
         </div>
       </div>
@@ -31,13 +33,13 @@ const Hero = () => {
           fill="#00FFFF"
           fill-opacity="0.7"
           d="M-100 -100L200 -100L200 50L-100 50Z"
-          style={{ animation: "path1 12.5s linear infinite alternate" }}
+          style={{ animation: "path1 9.5s linear infinite alternate" }}
         />
         <path
           fill="#FF00FF"
           fill-opacity="0.2"
           d="M-100 -100L200 -100L200 20L-100 20Z"
-          style={{ animation: "path2 30s linear infinite alternate" }}
+          style={{ animation: "path2 11s linear infinite alternate" }}
         />
       </svg>
     </div>

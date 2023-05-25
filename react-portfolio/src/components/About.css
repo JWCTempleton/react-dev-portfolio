@@ -1,15 +1,40 @@
 .about-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 50rem;
+  align-items: center;
+  width: 100vw;
+  margin: 3.6rem auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #e9c46a;
+  background-image: linear-gradient(135deg, #e9c46a,#f4a261);
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+  text-transform: uppercase;
+}
+
+.about-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
 
 .about-img {
   border-radius: 50%;
-  width: 20rem;
-  height: 20rem;
+  width: 18rem;
+  height: 18rem;
   object-fit: cover;
 }
 
-.about-text {
+.about-text-section {
+  width: 30rem;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
