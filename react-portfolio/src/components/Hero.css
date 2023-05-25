@@ -46,6 +46,7 @@
   }
 }
 
+
 .hero-paragraph {
   font-size: 3rem;
   font-weight: 700;
@@ -96,6 +97,52 @@ path {
   left: 0;
 }
 
+.fade-first {
+  animation: fade-first 2s;
+}
+
+.fade-second {
+  opacity: 0;
+  animation-name: fade-second;
+  animation-duration: 1.8s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+.fade-third {
+  opacity: 0;
+  animation-name: fade-second;
+  animation-duration: 2.2s;
+  animation-delay: 2.8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-first {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-second {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-third {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes path0 {
   0% {
     transform: rotate(-18deg);

@@ -1,17 +1,19 @@
 import "./Hero.css";
 
+
 // #FFFF00, #00FFFF, #FF00FF
 
 const Hero = () => {
   return (
     <div className="hero">
+      
       <div className="hero-text">
         <p className="hero-paragraph">
-          Hi, I'm <span className="text-background">Jacob Templeton</span>...
+          <span className="fade-first">Hi,</span> <span className="fade-second">I'm <span className="text-background">Jacob Templeton</span>...</span>
           <br />
-          your next web developer.
+          <span className="fade-third">your next web developer.</span>
         </p>
-        <div className="button-section">
+        <div className="button-section fade-third">
           <a href="#about">
             <button className="button">About Me</button>
           </a>

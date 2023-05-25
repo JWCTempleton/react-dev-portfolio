@@ -1,8 +1,12 @@
 import "./About.css";
+import Fade from 'react-reveal/Fade';
+
 
 const About = () => {
   return (
     <div className="about-section" id="about">
+          <Fade left>
+
       <h2>About Me</h2>
       <div className="about-div">
         <div className="about-img-section">
@@ -14,9 +18,11 @@ const About = () => {
         </div>
         <div className="about-text-section">
           <p>I graduated Summa Cum Laude from Saint Mary's College of California with a B.S. in Business Administration. In my senior year I was accepted into the Technology, Engineering, and Business program which introduced me to a brand new world of web design.</p><br />
-          <p>While my experience thus far has mostly involved working with front-end technologies, I am learning as much as possible about databases and other back-end technolgies with the ultimate goal of becoming a full-stack web developer.</p>
+          <p>I am comfortable working with React for front end development and have been learning about back end development. This includes working with Express as well as database design with both relational (postgres) as well as non-relational (mongo) databases.</p>
         </div> 
       </div>
+      </Fade>
+
     </div>
   );
 };
