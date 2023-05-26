@@ -39,12 +39,33 @@ const Projects = () => {
             >
               <img
                 className="projects-photo"
-                src="./laptop-1.jpg"
+                src="./laptop-2.jpg"
                 alt="laptop"
               />
             </Tilt>
           </div>
           <div className="projects-text">Text</div>
+        </div>
+      </Fade>
+      <Fade left>
+        <div className="projects-content mb-medium">
+          <div className="projects-text">Text</div>
+
+          <div className="projects-image mb-medium">
+            <Tilt
+              glareEnable={true}
+              glareMaxOpacity={0.8}
+              glareColor="#ffffff"
+              glarePosition="bottom"
+              glareBorderRadius="20px"
+            >
+              <img
+                className="projects-photo"
+                src="./laptop-3.jpg"
+                alt="laptop"
+              />
+            </Tilt>
+          </div>
         </div>
       </Fade>
     </div>
