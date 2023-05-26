@@ -1,15 +1,16 @@
 import "./Hero.css";
 
-
 // #FFFF00, #00FFFF, #FF00FF
 
 const Hero = () => {
   return (
     <div className="hero">
-      
       <div className="hero-text">
         <p className="hero-paragraph">
-          <span className="fade-first">Hi,</span> <span className="fade-second">I'm <span className="text-background">Jacob Templeton</span>...</span>
+          <span className="fade-first">Hi,</span>{" "}
+          <span className="fade-second">
+            I'm <span className="text-background">Jacob Templeton</span>...
+          </span>
           <br />
           <span className="fade-third">your next web developer.</span>
         </p>
@@ -17,7 +18,9 @@ const Hero = () => {
           <a href="#about">
             <button className="button">About Me</button>
           </a>
-          <button className="button">My Projects</button>
+          <a href="#projects">
+            <button className="button">My Projects</button>
+          </a>
         </div>
       </div>
       <svg
