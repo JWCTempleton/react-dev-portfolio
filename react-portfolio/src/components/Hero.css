@@ -97,13 +97,13 @@ path {
 }
 
 .fade-first {
-  animation: fade-first 2s;
+  animation: fade-first 1.5s;
 }
 
 .fade-second {
   opacity: 0;
   animation-name: fade-second;
-  animation-duration: 1.8s;
+  animation-duration: 1.3s;
   animation-delay: 1.2s;
   animation-fill-mode: forwards;
 }
@@ -111,7 +111,7 @@ path {
 .fade-third {
   opacity: 0;
   animation-name: fade-second;
-  animation-duration: 2.2s;
+  animation-duration: 1.5s;
   animation-delay: 2.8s;
   animation-fill-mode: forwards;
 }

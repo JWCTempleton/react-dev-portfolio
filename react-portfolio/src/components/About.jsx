@@ -1,11 +1,11 @@
 import "./About.css";
-import Fade from "react-reveal/Fade";
+import { Slide } from "react-awesome-reveal";
 import Tilt from "react-parallax-tilt";
 
 const About = () => {
   return (
     <div className="about-section" id="about">
-      <Fade left>
+      <Slide left>
         <h2>About Me</h2>
         <div className="about-div">
           <div className="about-img-section">
@@ -33,7 +33,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </Fade>
+      </Slide>
     </div>
   );
 };

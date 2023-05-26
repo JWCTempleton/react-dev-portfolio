@@ -1,12 +1,12 @@
 import "./Projects.css";
-import Fade from "react-reveal/Fade";
 import Tilt from "react-parallax-tilt";
+import { Slide } from "react-awesome-reveal";
 
 const Projects = () => {
   return (
     <div className="projects-section" id="projects">
       <h2 className="mb-small">My Projects</h2>
-      <Fade left>
+      <Slide direction={"left"} duration={800}>
         <div className="projects-content mb-medium">
           <div className="projects-text">Text</div>
 
@@ -26,8 +26,8 @@ const Projects = () => {
             </Tilt>
           </div>
         </div>
-      </Fade>
-      <Fade right>
+      </Slide>
+      <Slide direction={"right"} duration={800}>
         <div className="projects-content mb-medium">
           <div className="projects-image">
             <Tilt
@@ -46,8 +46,8 @@ const Projects = () => {
           </div>
           <div className="projects-text">Text</div>
         </div>
-      </Fade>
-      <Fade left>
+      </Slide>
+      <Slide direction={"left"} duration={800}>
         <div className="projects-content mb-medium">
           <div className="projects-text">Text</div>
 
@@ -67,7 +67,7 @@ const Projects = () => {
             </Tilt>
           </div>
         </div>
-      </Fade>
+      </Slide>
     </div>
   );
 };
