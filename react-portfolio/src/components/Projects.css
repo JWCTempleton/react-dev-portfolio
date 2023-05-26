@@ -4,4 +4,41 @@
   align-items: center;
   width: 100vw;
   height: 30rem;
+  margin: 2rem auto;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: center;
+  width: 60rem;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.projects-text {
+  width: 25rem;
+}
+
+.projects-image {
+  width: 25rem;
+}
+
+.projects-photo {
+  border-radius: 0.8rem;
+  --f: 0.1; /* the parallax factor (the smaller the better) */
+  --r: 20px; /* radius */
+
+  --_f: calc(100% * var(--f) / (1 + var(--f)));
+  --_a: calc(90deg * var(--f));
+  width: 18rem; /* the image size */
+  aspect-ratio: calc(1 + var(--f));
+  object-fit: cover;
+  clip-path: inset(0 var(--_f) 0 0 round var(--r));
+  transform: perspective(400px) var(--_t, rotateY(var(--_a)));
+  transition: 0.5s;
+  cursor: pointer;
+}
+.projects-photo:hover {
+  clip-path: inset(0 0 0 var(--_f) round var(--r));
+  --_t: translateX(calc(-1 * var(--_f))) rotateY(calc(-1 * var(--_a)));
 }
