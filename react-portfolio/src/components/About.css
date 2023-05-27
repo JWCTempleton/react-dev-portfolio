@@ -20,6 +20,25 @@ h2 {
   text-transform: uppercase;
 }
 
+.about-button {
+  background-color: #6c91f7;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 1.2rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  margin-top: 1.3rem;
+}
+
+.about-button:hover {
+  background-color: #4172f6;
+  transform: translatey(-3px);
+  box-shadow: rgba(0, 0, 0, 0.25) 2.35px 2.5px 2.6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
 .about-div {
   display: flex;
   justify-content: center;
@@ -29,8 +48,8 @@ h2 {
 
 .about-img {
   border-radius: 50%;
-  width: 18rem;
-  height: 18rem;
+  width: 20rem;
+  height: 20rem;
   object-fit: cover;
 }
 

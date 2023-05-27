@@ -16,10 +16,10 @@ const Hero = () => {
         </p>
         <div className="button-section fade-third">
           <a href="#about">
-            <button className="button">About Me</button>
+            <button className="hero-button">About Me</button>
           </a>
           <a href="#projects">
-            <button className="button">My Projects</button>
+            <button className="hero-button">My Projects</button>
           </a>
         </div>
       </div>

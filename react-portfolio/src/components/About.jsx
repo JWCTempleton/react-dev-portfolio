@@ -5,8 +5,8 @@ import Tilt from "react-parallax-tilt";
 const About = () => {
   return (
     <div className="about-section" id="about">
+      <h2>About Me</h2>
       <Slide left>
-        <h2>About Me</h2>
         <div className="about-div">
           <div className="about-img-section">
             <Tilt>
@@ -31,6 +31,11 @@ const About = () => {
               working with Express as well as database design with both
               relational (postgres) as well as non-relational (mongo) databases.
             </p>
+            <div>
+              <a href="./JWCT_Resume_2023.pdf" target="_blank" rel="noreferrer">
+                <button className="about-button">My Resume</button>
+              </a>
+            </div>
           </div>
         </div>
       </Slide>
