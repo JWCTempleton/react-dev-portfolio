@@ -20,7 +20,7 @@ const Projects = () => {
             >
               <img
                 className="projects-photo"
-                src="./laptop-1.jpg"
+                src="./laptop-4.jpg"
                 alt="laptop"
               />
             </Tilt>
