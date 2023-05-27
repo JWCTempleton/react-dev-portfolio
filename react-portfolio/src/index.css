@@ -17,9 +17,9 @@
 */
 html,
 body {
+  font-size: 62.5%;
   height: 100%;
   scroll-behavior: smooth;
-
 }
 /*
   Typographic tweaks!

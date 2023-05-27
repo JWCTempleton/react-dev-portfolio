@@ -14,7 +14,6 @@
   padding: 5rem 9rem;
   /* background: rgba(255, 255, 255, 0.1); */
   /* backdrop-filter: blur(10px); */
-  border-radius: 16px;
   justify-content: center;
   align-items: center;
   line-height: 0.05rem;
@@ -47,9 +46,9 @@
 }
 
 .hero-paragraph {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
-  line-height: 3.8rem;
+  line-height: 6.5rem;
   margin-top: 3rem;
 }
 
@@ -57,7 +56,7 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: 5.2rem;
+  margin-top: 4.6rem;
   margin-bottom: 3.2rem;
 }
 
@@ -65,14 +64,14 @@
   background-color: #6c91f7;
   border: none;
   cursor: pointer;
-  padding: 1.4rem 1.6rem;
+  padding: 2rem 2.4rem;
   color: #ffffff;
-  font-size: 1.2rem;
-  border-radius: 0.6rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 0.8rem;
 }
 
-.button:hover {
+.hero-button:hover {
   background-color: #4172f6;
   transform: translatey(-3px);
   box-shadow: rgba(0, 0, 0, 0.25) 2.35px 2.5px 2.6px;
