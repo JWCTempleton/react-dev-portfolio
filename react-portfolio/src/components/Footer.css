@@ -25,6 +25,8 @@
   position: absolute;
   height: 8rem;
   width: 100%;
+  margin-top: 8rem;
+  border-top: 0.3rem solid black;
 }
 
 .icon-div {
