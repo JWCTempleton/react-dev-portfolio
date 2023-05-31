@@ -58,3 +58,28 @@ h2 {
   font-size: 1.7rem;
   font-weight: 600;
 }
+
+@media screen and (max-width: 760px) {
+  .about-div {
+    flex-direction: column;
+  }
+
+  .about-text-section {
+    width: 68vw;
+    font-size: 2.6vw;
+    font-weight: 600;
+  }
+
+  .about-img {
+    border-radius: 50%;
+    width: 45vw;
+    height: 45vw;
+    object-fit: cover;
+  }
+
+  .about-button {
+    justify-self: center;
+    font-size: 2.6vw;
+    padding: 2vw 3vw;
+  }
+}

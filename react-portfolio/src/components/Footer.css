@@ -14,19 +14,18 @@
 .footer {
   display: flex;
   flex-direction: column;
-  color: #000;
+  color: #fff;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   background: linear-gradient(90deg, #a4baf5, #c8e74d, #f5a2a1);
   background-size: 300% 300%;
   animation: gradient 4s alternate infinite;
   position: absolute;
-  height: 8rem;
+  height: 12rem;
   width: 100%;
-  margin-top: 8rem;
-  border-top: 0.3rem solid black;
+  margin-top: 12rem;
 }
 
 .icon-div {

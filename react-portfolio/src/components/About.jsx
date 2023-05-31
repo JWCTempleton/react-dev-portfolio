@@ -1,13 +1,15 @@
 import "./About.css";
-import { Slide } from "react-awesome-reveal";
+import { Slide, Fade } from "react-awesome-reveal";
 import Tilt from "react-parallax-tilt";
 
 const About = () => {
   return (
     <div className="about-section" id="about">
-      <h2>About Me</h2>
-      <Slide left>
-        <div className="about-div">
+      <Fade duration={2800}>
+        <h2>About Me</h2>
+      </Fade>
+      <div className="about-div">
+        <Fade cascade damping={0.6}>
           <div className="about-img-section">
             <Tilt>
               <img
@@ -37,8 +39,8 @@ const About = () => {
               </a>
             </div>
           </div>
-        </div>
-      </Slide>
+        </Fade>
+      </div>
     </div>
   );
 };
