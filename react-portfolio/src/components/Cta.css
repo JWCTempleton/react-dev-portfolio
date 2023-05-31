@@ -1,0 +1,18 @@
+.call {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10rem 5rem;
+}
+
+.call-title {
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+.call-content {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
