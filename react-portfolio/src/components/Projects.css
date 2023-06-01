@@ -13,6 +13,7 @@
   width: 80rem;
   gap: 4rem;
   margin-top: 3rem;
+  transition: all 0.5s;
 }
 
 .projects-text {
@@ -41,4 +42,37 @@
 
 .mb-medium {
   margin-bottom: 6.5rem;
+}
+
+@media screen and (max-width: 760px) {
+  .projects-content {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .projects-text {
+    width: 50rem;
+  }
+
+  .projects-image {
+    width: 50rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects-section {
+    backface-visibility: hidden;
+  }
+  .projects-image {
+    width: 100vw;
+  }
+  .projects-photo {
+    border-radius: 0;
+  }
 }

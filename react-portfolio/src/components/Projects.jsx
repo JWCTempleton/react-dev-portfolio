@@ -1,34 +1,30 @@
 import "./Projects.css";
 import Tilt from "react-parallax-tilt";
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Projects = () => {
   return (
     <div className="projects-section" id="projects">
       <h2 className="mb-small">My Projects</h2>
-      <Slide direction={"left"} duration={800}>
+      <Fade duration={1200}>
         <div className="projects-content mb-medium">
           <div className="projects-text">Text</div>
 
           <div className="projects-image">
-            <Tilt
+            {/* <Tilt
               glareEnable={true}
               glareMaxOpacity={0.8}
               glareColor="#ffffff"
               glarePosition="bottom"
               glareBorderRadius="20px"
-            >
-              <img
-                className="projects-photo"
-                src="./laptop-4.jpg"
-                alt="laptop"
-              />
-            </Tilt>
+            > */}
+            <img className="projects-photo" src="./laptop-4.jpg" alt="laptop" />
+            {/* </Tilt> */}
           </div>
         </div>
-      </Slide>
-      <Slide direction={"right"} duration={800}>
-        <div className="projects-content mb-medium">
+      </Fade>
+      <Fade duration={1200}>
+        <div className="projects-content mb-medium reverse">
           <div className="projects-image">
             <Tilt
               glareEnable={true}
@@ -46,8 +42,8 @@ const Projects = () => {
           </div>
           <div className="projects-text">Text</div>
         </div>
-      </Slide>
-      <Slide direction={"left"} duration={800}>
+      </Fade>
+      <Fade duration={1200}>
         <div className="projects-content mb-medium">
           <div className="projects-text">Text</div>
 
@@ -67,7 +63,7 @@ const Projects = () => {
             </Tilt>
           </div>
         </div>
-      </Slide>
+      </Fade>
     </div>
   );
 };
