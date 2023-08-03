@@ -2,9 +2,12 @@ import "./Projects.css";
 import Tilt from "react-parallax-tilt";
 import { Fade } from "react-awesome-reveal";
 
-const Projects = () => {
+const Projects = ({ darkMode }) => {
   return (
-    <div className="projects-section" id="projects">
+    <div
+      className={darkMode ? "projects-section dark" : "projects-section"}
+      id="projects"
+    >
       <h2 className="mb-small">My Projects</h2>
       <Fade duration={1200}>
         <div className="projects-content mb-medium">

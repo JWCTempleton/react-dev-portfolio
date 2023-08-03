@@ -7,6 +7,11 @@
   margin: 5rem auto;
 }
 
+.projects-section.dark {
+  background-color: rgb(24, 23, 36);
+  color: white;
+}
+
 .projects-content {
   display: flex;
   justify-content: space-around;

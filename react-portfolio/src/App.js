@@ -16,7 +16,7 @@ function App() {
     <div className="app">
       <Hero toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
       <About darkMode={darkMode} />
-      <Projects />
+      <Projects darkMode={darkMode} />
       <Cta />
       <Footer />
     </div>
