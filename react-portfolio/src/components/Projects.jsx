@@ -21,7 +21,15 @@ const Projects = () => {
               passwords are hashed before saving to DB.
             </p>
             <a href="https://github.com/JWCTempleton/full-stack-notes-app">
-              <p style={{ display: "flex", gap: ".4rem", color: "darkblue" }}>
+              <p
+                style={{
+                  display: "flex",
+                  gap: ".4rem",
+                  marginTop: ".8rem",
+                  fontWeight: "900",
+                  alignItems: "center",
+                }}
+              >
                 Github Code
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

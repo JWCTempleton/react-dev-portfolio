@@ -1,10 +1,12 @@
 import "./Hero.css";
+import Toggler from "./Toggle";
 
 // #FFFF00, #00FFFF, #FF00FF
 
 const Hero = () => {
   return (
     <div className="hero">
+      <Toggler />
       <div className="hero-text">
         <p className="hero-paragraph">
           <span className="fade-first">Hi,</span>{" "}
