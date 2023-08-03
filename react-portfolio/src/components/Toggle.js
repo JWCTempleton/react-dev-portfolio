@@ -1,13 +1,18 @@
 import "./Toggle.css";
-const Toggler = () => {
+const Toggler = ({ toggleDarkMode, darkMode }) => {
   return (
-    <div className="toggler">
-      <p className="toggler--light">Light</p>
-      <div className="toggler--slider">
-        <div className="toggler--slider--circle"></div>
+    <span className={darkMode ? "dark" : ""}>
+      <div
+        className={darkMode ? "toggler dark" : "toggler"}
+        onClick={toggleDarkMode}
+      >
+        <p className="toggler--light">Light</p>
+        <div className="toggler--slider">
+          <div className="toggler--slider--circle"></div>
+        </div>
+        <p className="toggler--dark">Dark</p>
       </div>
-      <p className="toggler--dark">Dark</p>
-    </div>
+    </span>
   );
 };
 

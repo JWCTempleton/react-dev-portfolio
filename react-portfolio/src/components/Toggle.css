@@ -25,7 +25,7 @@
   box-sizing: content-box;
 }
 
-nav.dark .toggler--slider {
+span.dark .toggler--slider {
   border-color: white;
   background-color: #f5f5f5;
 }
@@ -37,7 +37,7 @@ nav.dark .toggler--slider {
   border-radius: 50%;
 }
 
-nav.dark .toggler--slider--circle {
+span.dark .toggler--slider--circle {
   background-color: black;
 }
 
@@ -45,18 +45,18 @@ nav.dark .toggler--slider--circle {
   color: #2b283a;
 }
 
-nav.dark .toggler--light {
-  color: #918e9b;
+span.dark .toggler--light {
+  color: black;
 }
 
 .toggler--dark {
-  color: white;
+  color: black;
 }
 
-nav.dark .toggler-dark {
-  color: #ffffff;
+span.dark .toggler-dark {
+  color: black;
 }
 
-nav.dark .toggler--slider {
+span.dark .toggler--slider {
   justify-content: flex-end;
 }

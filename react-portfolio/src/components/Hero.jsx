@@ -3,10 +3,10 @@ import Toggler from "./Toggle";
 
 // #FFFF00, #00FFFF, #FF00FF
 
-const Hero = () => {
+const Hero = ({ toggleDarkMode, darkMode }) => {
   return (
     <div className="hero">
-      <Toggler />
+      <Toggler toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
       <div className="hero-text">
         <p className="hero-paragraph">
           <span className="fade-first">Hi,</span>{" "}
