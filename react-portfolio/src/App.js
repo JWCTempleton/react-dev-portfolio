@@ -13,7 +13,7 @@ function App() {
     setDarkMode((prev) => !prev);
   }
   return (
-    <div className="app">
+    <div className={darkMode ? "app dark" : "app"}>
       <Hero toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
       <About darkMode={darkMode} />
       <Projects darkMode={darkMode} />
