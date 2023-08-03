@@ -86,14 +86,40 @@ const Projects = ({ darkMode }) => {
               glarePosition="bottom"
               glareBorderRadius="20px"
             >
-              <img
-                className="projects-photo"
-                src="./laptop-2.jpg"
-                alt="laptop"
-              />
+              <a href="http://skycamaviation.com">
+                <img
+                  className="projects-photo"
+                  src="./laptop-2.jpg"
+                  alt="laptop"
+                />
+              </a>
             </Tilt>
           </div>
-          <div className="projects-text">Text</div>
+          <div className="projects-text">
+            <a href="http://skycamaviation.com">
+              <h2>SkyCam Aviation</h2>
+            </a>
+            <p>
+              A complete and comprehensive redesign of the SkyCam Aviation
+              website built using WordPress and Colibri that is live and in use.
+              Although I prefer working with React, this project was a lot of
+              fun and a great experience. In this project I also edited the copy
+              content and worked on SEO optimization.{" "}
+            </p>
+            <a href="http://skycamaviation.com">
+              <p
+                style={{
+                  display: "flex",
+                  gap: ".4rem",
+                  marginTop: ".8rem",
+                  fontWeight: "900",
+                  alignItems: "center",
+                }}
+              >
+                Website Link
+              </p>
+            </a>
+          </div>
         </div>
       </Fade>
       <Fade duration={1200}>
