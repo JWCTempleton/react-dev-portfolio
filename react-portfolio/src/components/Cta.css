@@ -20,3 +20,10 @@
   font-size: 2.6rem;
   font-weight: 700;
 }
+.cta {
+  padding-bottom: 10rem;
+}
+
+.cta.dark {
+  background-color: rgb(24, 23, 36);
+}

@@ -17,7 +17,7 @@ function App() {
       <Hero toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
       <About darkMode={darkMode} />
       <Projects darkMode={darkMode} />
-      <Cta />
+      <Cta darkMode={darkMode} />
       <Footer />
     </div>
   );
