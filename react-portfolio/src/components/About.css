@@ -87,3 +87,9 @@ h2 {
 .about.dark {
   background-color: rgb(24, 23, 36);
 }
+
+@media screen and (max-width: 760px) {
+  .about-text-section {
+    font-size: 3vw;
+  }
+}

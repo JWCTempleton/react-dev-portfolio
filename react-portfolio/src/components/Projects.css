@@ -5,6 +5,7 @@
   width: 100vw;
   padding-top: 4rem;
   margin: 0 auto;
+  color: hsl(224, 91%, 23%);
 }
 
 .projects-content {
@@ -29,7 +30,7 @@
 .projects-text a:link,
 a:visited {
   text-decoration: none;
-  color: #4172f6;
+  color: hsl(224, 91%, 61%);
 }
 
 .projects-text a:hover {
@@ -74,6 +75,7 @@ a:visited {
   .projects-content {
     align-items: center;
     flex-direction: column-reverse;
+    width: 100vw;
   }
 
   .reverse {
@@ -83,11 +85,11 @@ a:visited {
   }
 
   .projects-text {
-    width: 50rem;
+    width: 70vw;
   }
 
   .projects-image {
-    width: 50rem;
+    width: 70vw;
   }
 }
 
@@ -100,5 +102,8 @@ a:visited {
   }
   .projects-photo {
     border-radius: 0;
+  }
+  .projects-text {
+    width: 80vw;
   }
 }

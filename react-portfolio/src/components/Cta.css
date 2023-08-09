@@ -27,3 +27,11 @@
 .cta.dark {
   background-color: rgb(24, 23, 36);
 }
+
+@media screen and (max-width: 600px) {
+  .call-content {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
