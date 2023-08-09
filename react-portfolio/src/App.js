@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Cta from "./components/Cta";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   function toggleDarkMode() {
     setDarkMode((prev) => !prev);
