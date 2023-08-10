@@ -37,11 +37,7 @@ const About = ({ darkMode }) => {
                 databases.
               </p>
               <div>
-                <a
-                  href="./JWCT_Resume_2023.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="./JWCT_dev_2023.pdf" target="_blank" rel="noreferrer">
                   <button className="about-button">My Resume</button>
                 </a>
               </div>
